@@ -1,0 +1,8 @@
+RewriteEngine on
+#Ajout d'une regle
+#RewriteRule .{0} accueil.php
+#si il saisit zero caractere tu affiche   accueil.php
+
+RewriteRule ^service/list$ src/view/service/liste.php
+RewriteRule ^employe/list$ src/view/employe/liste.php
+RewriteRule ^pointage/list$ src/view/pointage/liste.php

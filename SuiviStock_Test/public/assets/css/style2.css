@@ -1,0 +1,162 @@
+body
+{
+	margin: 0;
+	background-color: #def2f3;
+}
+nav ul
+{
+	list-style-type: none;
+	//overflow: hidden;
+	margin: 0;
+	padding: 0;
+	padding-left: 16px;
+}
+nav ul li
+{
+	display: inline-block;
+	padding: 15px;
+	float: left;
+	padding-right: 95px;
+	padding-left: 95px;
+	margin: 0;
+	background-color: #589ba4;
+	transition: background-color 1s ease;
+}
+nav a
+{
+	text-decoration: none;
+	font-family: bree serif;
+	font-size: 20px;
+	margin: 0;
+	transition: color 1s ease;
+}
+nav li:hover
+{
+	background-color: #24454c;
+	cursor: pointer;
+}
+nav li:hover a
+{
+	color: white;
+}
+.container
+{
+	background-color: #f2f2f2;
+	height: 530px;
+	max-height: 530px;
+	width: 95%;
+	border: 0.1px solid black;
+	margin-left: 1.5%;
+	padding: 15px;
+	overflow-y: auto;
+}
+footer
+{
+	text-align: center;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	font-family: bree serif;
+	font-size: 20px;
+}
+.erreur
+{
+	width: 100%;
+	font-family: coquette;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.Emp input,select
+{
+	width: 40%;
+	height: 50px;
+	font-size: 18px;
+	margin-left: 6%;
+}
+.connex{
+	width: 25%;
+	height: 50px;
+	margin-left:37.5%;
+	font-size: 18px;
+}
+.table{
+	width: 100%;
+	text-align: center;
+	background-color: #589ba4;
+}
+.table tr{
+	background-color: #589ba4;
+	border-bottom: 2px solid white;
+}
+.table th{
+	font-family: maiandra GD;
+	font-size: 23px;
+	border: 1px solid black;
+	color: white;
+}
+.table td
+{
+	border-bottom: 1px solid black;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+
+.tab_complet
+{
+	width: 100%;
+}
+.formul_tab
+{
+	text-align: center;
+	padding: 15px;
+}
+.champsNewC
+{
+	height: 30px;
+	width: 230px;
+	border-radius: 5px;
+	font-family: maiandra GD;
+	padding-left: 10px;
+	font-size: 20px;
+	border: 1px solid black;
+}
+select[class="champsNewC"]
+{
+	width: 250px;
+}
+fieldset[id="newAccount"]
+{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+fieldset[id="newAccount"] legend
+{
+	text-align: center;
+}
+
+.btn
+{
+	height: 35px;
+	border: 0.2px solid silver;
+	color: #24454c;
+	font-family: coquette;
+	letter-spacing: 4px;
+	font-size: 27px;
+	background-color: #02cfe2;
+	box-shadow: 4px 4px 0px #03929e;
+
+}
+.btn:hover
+{
+	cursor: pointer;
+}
+
+.aligner
+{
+	width: 100%;
+	text-align: center;
+}

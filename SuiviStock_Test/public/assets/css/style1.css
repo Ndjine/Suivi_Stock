@@ -1,0 +1,223 @@
+.body
+{
+	background-image: url("../../img/fond.jpg");
+	background-size: 100%;
+}
+.bloc_centre
+{
+	background-color: rgba(88, 88, 88, 0.3);
+	color: #5c94fa;
+	height: 420px;
+	width: 870px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	margin-top: 105px;
+	margin-left: 225px;
+	border-radius: 20px;
+	border: 0px solid white;
+
+}
+.bloc
+{
+	background-color: rgba(88, 88, 88, 0.6	);
+	color: #4776cc;
+	height: 520px;
+	width: 470px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	margin-top: 75px;
+	margin-left: 425px;
+	border-radius: 0px;
+	border: 0px solid white;
+}
+footer
+{
+	text-align: center;
+	margin-top: 65px;
+	padding: 10px;
+	font-family: century;
+	color: black;
+}
+.titre
+{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	font-family: century;
+}
+.colon
+{
+	width: 390px;
+	margin-top: 18px;
+	margin-bottom: 12px;
+	//margin-left: 30px;
+	height: 35px;
+	border-radius: 5px;
+	border: 0.7px solid silver;
+	font-size: 17px;
+	font-family: Berlin Sans FB Demi;
+	padding-left: 14px;
+}/*
+.colon:hover
+{
+	width: 390px;
+	height: 35px;
+}*/
+.colon
+{
+	transition: all 0.4s ease;
+}
+.btn
+{
+	//margin-left: 165px;
+	margin-top: 10px;
+	width: 145px;
+	height: 35px;
+	border: 0.2px solid silver;
+	background-color: #def2f3;
+	color: #24454c;
+	font-family: Bradley Hand ITC;
+	letter-spacing: 2px;
+	font-size: 27px;
+	box-shadow: 4px 4px 0px silver;
+	transition: all 0.5s ease;
+
+}
+.btn2
+{
+	//margin-left: 165px;
+	margin-top: 10px;
+	width: 190px;
+	height: 40px;
+	border: 0.2px solid silver;
+	background-color: #def2f3;
+	color: #24454c;
+	font-family: Bradley Hand ITC;
+	letter-spacing: 2px;
+	font-size: 27px;
+	box-shadow: 4px 4px 0px silver;
+	transition: all 0.5s ease;
+
+}
+.btn2:hover
+{
+	width: 165px;
+	border-radius: 5px;
+}
+.btn:hover
+{
+	width: 120px;
+	border-radius: 5px;
+}
+input[type="submit"]:hover
+{
+	cursor: pointer;
+	background-color: #5c94fa;
+}
+a[class="lien"]
+{
+	text-decoration: none;
+	color: #def2f3;
+	font-family: ink free;
+	font-size: 18px;
+}
+a[class="lien"]:hover
+{
+	text-decoration: underline;
+	color: red;
+}
+
+a[class="lien2"]
+{
+	text-decoration: none;
+	color: red;
+}
+a[class="lien2"]:hover
+{
+	text-decoration: underline;
+}
+.oubli
+{
+	text-align: right;
+	margin-top: 10px;
+}
+.inscrire
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+.table1
+{
+	width: 100%;
+	height: 460px;
+}
+.colonne
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.colonne1
+{
+	width: 50%;
+	padding-left: 8px;
+	padding-right: 22px;
+}
+.ligne
+{
+	height: 17.5%;
+}
+.inscript
+{
+	width: 95%;
+	height: 35px;
+	border-radius: 5px;
+	border: 0.7px solid silver;
+	font-size: 17px;
+	font-family: forte;
+	padding-left: 14px;
+}
+.formu
+{
+	padding-left: 15px;
+	color: #def2f3;
+	font-size: 18px;
+	font-family: forte;
+}
+.formu1
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #def2f3;
+	font-size: 18px;
+	font-family: forte;
+}
+.date
+{
+	border-radius: 5px;
+	border: 0.7px solid silver;
+	margin-right: 1px;
+}
+.tab1
+{
+	width: 100%;
+	height: 100%;
+}
+.table2
+{
+	height: 400px;
+	width: 100%;
+}
+.imgLogo
+{
+	width: 100%;
+	transition: all 0.7s ease;
+}
+.imgLogo:hover
+{
+	width: 70%;
+	cursor: pointer;
+}

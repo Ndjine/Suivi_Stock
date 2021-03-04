@@ -1,0 +1,22 @@
+body{
+    background: grey;
+    font-size: 20px;
+
+}
+.menu{
+    width: 90%;
+    margin: 2% 0% 2% 5%;
+    padding: 3%;
+    background: coral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    color: lightblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: Cambria;
+    font-weight: bold;
+}

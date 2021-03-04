@@ -1,0 +1,13 @@
+RewriteEngine On
+#Ajout d'une regle
+#
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+#si il saisit zero caractere tu affiche   accueil.php
+#RewriteRule ^index[0-9]+/??$ index.php
+#RewriteRule ^.{0} accueil.php
+RewriteRule ^(.+)??list$ SuiviStock/src/view/User/liste.php
+RewriteRule ^[0-4]+/??/insert$ src/view/User/insertion.php
+RewriteRule ^[2-8]+/??/mod$ src/view/User/modifier.php
+#RewriteRule  ^index[0-9]+$ index.php
